@@ -1,0 +1,36 @@
+[
+    {"type":"header","version":"5.2.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+    {"type":"database","name":"carSales"},
+    {"type":"table","name":"car_makes","database":"carSales","data":
+    [
+    {"id":"1","name":"Chevrolet"},
+    {"id":"2","name":"Buick"},
+    {"id":"3","name":"Ford"},
+    {"id":"4","name":"Nissan"},
+    {"id":"5","name":"Lexus"},
+    {"id":"6","name":"Lincoln"},
+    {"id":"7","name":"Oldsmobile"},
+    {"id":"8","name":"Pontiac"},
+    {"id":"9","name":"Jaguar"},
+    {"id":"10","name":"GMC"}
+    ]
+    }
+    ,{"type":"table","name":"car_models","database":"carSales","data":
+    [
+    {"id":"1","make_id":"1","name":"Blazer"},
+    {"id":"2","make_id":"1","name":"Equinox"},
+    {"id":"3","make_id":"2","name":"Riviera"},
+    {"id":"4","make_id":"2","name":"Regal"},
+    {"id":"5","make_id":"3","name":"Bronco"},
+    {"id":"6","make_id":"3","name":"Mustang"},
+    {"id":"7","make_id":"3","name":"Mach-E"},
+    {"id":"8","make_id":"3","name":"F150"},
+    {"id":"9","make_id":"3","name":"Focus"},
+    {"id":"10","make_id":"3","name":"Taurus"},
+    {"id":"11","make_id":"2","name":"Lucerne"},
+    {"id":"12","make_id":"1","name":"Celebrity"},
+    {"id":"13","make_id":"1","name":"Nova"},
+    {"id":"14","make_id":"1","name":"Silverado 1500"}
+    ]
+    }
+    ]
